@@ -22,6 +22,7 @@
           <li><a href="#idiomas" onclick="toggleMenu();">Language</a></li>
           <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
           <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+          <li><a href="#countdown" onclick="toggleMenu();">Countdown</a></li>
         </ul>
       </div>
       <div class="main">
@@ -38,14 +39,14 @@
             <div class="imgBx">
               <img src="./assets/img/user.jpeg" alt="user">
             </div>
-            <h3>Erica de Bem</h3>
+            <h4>Erica de Bem</h4>
             <p>I'm Developer :) </p>
             <a href="https://drive.google.com/drive/folders/18X9fGZSERZlLU_ojgVTPI3q-rAC9dYly?usp=sharing" target="_blank"class="btn">Download my CV <i class="fa fa-cloud-download" aria-hidden="true"></i></a>
-              <ul class="socialMedia">
-                <li><a href="https://github.com/ericadebem" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ericadebem/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://medium.com/@ericadebemm" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-              </ul>
+              <div class="socialMedia">
+                <button><a href="https://github.com/ericadebem" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></button>
+                <button><a href="https://www.linkedin.com/in/ericadebem/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></button>
+                <button><a href="https://medium.com/@ericadebemm" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></button>
+              </div>
             </div>
         </section>
 
@@ -58,7 +59,7 @@
             <div class="textBox">
               <p>I was born in Brazil, but my family is Italian. 
                 <br>This mix of cultures made me a very lively person, full of ideas! 
-                <br>My biggest hobby is listening and telling stories, in all formats. Be it music, book, chat, film...
+                <br>My biggest hobby is listening and telling stories, in all formats. Be it music, book, chatting, film...
                 <br><br>After working in various fields, I was an entrepreneur for almost 10 years in BR. I had two companies that were my pride and joy! Almost three years ago I moved to Germany and I am learning German, English and here I have the opportunity to work with my passion: the field of technology.
                 
                 <br><br>In 2021 I took a Chatbot AI course that changed my professional future and allowed me to reach new spaces all over the world. The process of continuous learning is very important in the technology field and still being able to add all the previous experiences I had is being an amazing process.
@@ -66,7 +67,7 @@
                 <br><br>In July 2022 I graduated in UX UNICORNIO in 2022 in Experience Design (UX Design). I gained knowledge and practice in Interface Design (UI Design), advanced product management techniques including UX Investigation, UX Writing, Experience Mapping, Usability, Prototyping, Workshop Facilitation; Product Management and was able to develop more Softskills relevant to the field. In this training, I also learned about UX Friendly Frontend Development. I used HTML5, CSS3, Materialize and Bootstrap Frameworks.
                 
                 <br><br>And in August 2022, I was one of the 100 women selected for a backend scholarship at Empower Code for women. This is a project of the Alura Include BR School and Zenvia BR Company. In it I learned and practiced more GIT & GITHUB | HTML5 | CSS3 | JavaScript | Scratch | Node.JS and introduction to unit testing using Jest.
-                <br><br><b> "Smile, share experiences, know the world and you will feel alive :) "</b></p><br>
+                <br><br><b> "Smile, share experiences, know the world and you will feel alive " :)</b></p><br>
             </div>
             <div class="imgBx">
               <img src="./assets/img/bg1.png" alt="mosaico de fotos">
@@ -75,7 +76,6 @@
             </div>
           </div>
         </section>
-
         <!--Services-->
         <section class="services adjust" id="services">
           <div class="title">
@@ -211,9 +211,34 @@
          </div>
         </div>
         </section>
+        <section class="countdown" id="countdown">
+          <h3> #100daysOfCode </h3>
+          <p> Hi! I challenged myself to code daily for 100 consecutive days in order to accelerate my hands-on learning. 
+          <a href="https://github.com/ericadebem" target="_blank" alt="logotipo github"><button class="github-100days">Track my progress on Github</button></a>
+          <div class="countdown-container">
+            <div class="countdown-el days-c">
+              <p class="text" id="days">0</p>
+              <span>days</span>
+            </div>
+           
+            <div class="countdown-el hours-c">
+              <p class="text" id="hours">0</p>
+              <span>hours</span>
+            </div>
+            <div class="countdown-el mins-c">
+              <p class="text" id="mins">0</p>
+              <span>minutes</span>
+            </div>
+            <div class="countdown-el seconds-c">
+              <p class="text" id="seconds">0</p>
+              <span>seconds</span>
+            </div>
+          </div>
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
     </div>
     <!--Copyright Text-->
-    <footer class="copyright">Copyright 2022 Erica de Bem | Challenge by Online Tutorials |& Alura Include </footer>
+    <footer class="copyright">Copyright 2022 Erica de Bem</footer>
     <script src="./assets/main.js"></script>
 </body>
 </html>
