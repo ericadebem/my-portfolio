@@ -143,7 +143,6 @@ section {
     margin-bottom: 20px;
 }
 .banner .imgBx img {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -215,6 +214,7 @@ p {
     letter-spacing: 2px;
     font-size: 1.2em;
     margin-bottom: 30px;
+    margin: 20px;
 }
 
 .title h2::before {
