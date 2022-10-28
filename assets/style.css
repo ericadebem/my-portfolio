@@ -69,7 +69,7 @@ body {
     opacity: 1;
 }
 .main {
-    position: absolute;
+    position:relative;
     width: calc(100% - 300px);
     left: 300px;
     background: var(--white);
@@ -428,9 +428,12 @@ p {
     max-width: 150px;
     border: none;
 }
-footer .copyright {
-    padding: 10px 40px;
-    text-align: center;
+footer {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin: 30px;
+    margin-left: 300px;
 }
 @media (max-width:992px)
 {
