@@ -502,7 +502,6 @@ p
     min-height: 100vh;
     margin-left: 300px;
 }
-
 h3 
 {
     display: flex;
@@ -512,7 +511,6 @@ h3
     font-size: 4rem;
     margin-top: 4.5rem;
 }
-
 .github-100days 
 {
     border-radius: 50px;
@@ -655,30 +653,31 @@ footer
     }
     #myBtn  
     {
-        width: 5%;
         min-width: 5%;
     }
     .github-100days 
     {
-        width: 80%;
-        min-width: 80%;
+        width: 100%;
+        min-width: 100%;
     }
     h3 {
-        font-size: 1rem;
+        margin-top: 1rem;
+        font-size: 2rem;
     }
     .text {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .countdown-el span {
         font-size: 1rem;
     }
     .countdown
-    {
-        /* margin: 55px; */
-        width: 80%;
+    {    
+        width: 100%;
         min-width: 80%;
         margin-left: 0;
-        text-align: center;
+    }
+    .countdown p {
+        margin: 0 2rem;
     }
     footer {
         margin-left: 0;
