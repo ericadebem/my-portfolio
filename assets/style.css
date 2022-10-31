@@ -660,15 +660,28 @@ footer
     }
     .github-100days 
     {
-        width: 100%;
-        min-width: 100%;
+        width: 80%;
+        min-width: 80%;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .countdown-el span {
+        font-size: 1rem;
     }
     .countdown
     {
-        width: 100%;
-        min-width: 100%;
+        /* margin: 55px; */
+        width: 80%;
+        min-width: 80%;
+        margin-left: 0;
+        text-align: center;
     }
     footer {
+        margin-left: 0;
         width: 100%;
         min-width: 100%;
     }
